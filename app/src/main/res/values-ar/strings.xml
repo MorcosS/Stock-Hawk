@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">الأسهم</string>
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key">الأسهم</string>
+    <string name="pref_display_mode_key">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_absolute_key">مطلق</string>
+    <string name="pref_display_mode_percentage_key">نسبة مئوية</string>
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+    <string name="dialog_title">إضافة أسهم</string>
+    <string name="dialog_hint">رمز (مثل GOOG)</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">إضافة</string>
+    <string name="error_no_network">لا يوجد اتصال بالانترنت سيتم تحميل الأسهم فور توافر الاتصال.</string>
+    <string name="error_no_stocks">لا يوجد أسهم. اضغط علي زر الاضافة كي تضيف أسهم جديدة</string>
+    <string name="toast_stock_added_no_connectivity">تم اضافة الرمز  %s . سيتم التحميل فور توافر اتصال</string>
+    <string name="toast_no_connectivity">سيتم التحميل فور توافر اتصال بالشبكة.</string>
+    <string name="fab_description">اضافة اسهم جديدة</string>
+    <string name="dollar_desc">تبديل عرض المعاملات بالدولار أو بالنسبة المئوية</string>
+
+
+</resources>

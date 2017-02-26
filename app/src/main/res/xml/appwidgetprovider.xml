@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
-</PreferenceScreen>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="110dp"
+    android:minHeight="170dp"
+    android:updatePeriodMillis="18000"
+    android:initialLayout="@layout/stock_list_widget"
+    android:previewImage="@drawable/ic_dollar"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen">
+</appwidget-provider>
